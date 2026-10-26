@@ -2,6 +2,8 @@
 
 Vorlage für eigene Linux-Server: Traefik nimmt HTTP/HTTPS entgegen und verteilt Anfragen an zwei Nginx-Replikate mit unserer Beispielwebsite. Hier wird nichts automatisch auf fremden Servern installiert oder veröffentlicht.
 
+**Für den ersten eigenen Versuch:** [Schritt-für-Schritt-Anleitung](SCHRITT-FUER-SCHRITT.md) mit Serverzugang, Docker-Installation und den Befehlen bis zur Website.
+
 ```text
 Browser → Traefik auf einem ausgewählten Manager → Overlay-Netz → Website (2 Replikate)
 ```
